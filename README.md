@@ -3,7 +3,7 @@
 ### React +  Sass
 
 ### ■ Mobile
-### React Native
+### React Native + Expo
 
 ### ■ Architect
 ### AWS Serverless MicroService
