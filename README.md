@@ -2,13 +2,13 @@
 
 # instagram-style-app
 ### ■ Web
-### React +  Sass
+React +  Sass
 
 ### ■ Mobile
-### React Native + Expo
+React Native + Expo
 
 ### ■ Architect
-### AWS Serverless MicroService
+AWS Serverless MicroService
 
 ### ■ CI / CD
-### AWS Codeシリーズ
+AWS Codeシリーズ
