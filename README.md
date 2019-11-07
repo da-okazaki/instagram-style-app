@@ -1,45 +1,45 @@
 ![](https://github.com/da-okazaki/instagram-style-app/blob/master/instagram.png)
 
 # instagram-style-app
-■ 開発手法
+### ■ 開発手法
 Agile Scrum
 
-■ プログラミング言語
+### ■ プログラミング言語
 Web ： React、Sass
 Mobile ： ReactNative
 
-■ Architect / Infra
+### ■ Architect / Infra
 Serverless MicroService / AWS
 
-■ Faas
+### ■ Faas
 Lambda
 
-■ DB
+### ■ DB
 DynamoDB
 
-■ Auth
+### ■ Auth
 Cognito (ユーザープール,IDプール - Facebook)
 
-■ CDN
+### ■ CDN
 CloudFront
 
-■ Push Notification
+### ■ Push Notification
 Amazon SNS
 
-■ async (非同期)
+### ■ async (非同期)
 AppSync (GraphQL)
 
-■ CI / CD
+### ■ CI / CD
 AWS Codeシリーズ、CycleCI
 
-■ infrastructure as Code （IaC）
+### ■ infrastructure as Code （IaC）
 CloudFormation, Teraform
 
-■ Design Tool
+### ■ Design Tool
 AdobeXD
 
-■ communication tool
+### ■ communication tool
 Slack, Notion
 
-■ Other
-Expo, npm, sourcetree,
+### ■ Other
+Expo, npm, sourcetree
