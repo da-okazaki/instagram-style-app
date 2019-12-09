@@ -1,17 +1,11 @@
 {
-  "name": "instagram-style-app",
+  "name": "myapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "aws-amplify": "^2.2.0",
-    "aws-amplify-react": "^3.1.1",
-    "history": "^4.10.1",
     "react": "^16.11.0",
-    "react-dom": "^16.12.0",
-    "react-router": "^5.1.2",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0",
-    "shards-react": "^1.0.3"
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

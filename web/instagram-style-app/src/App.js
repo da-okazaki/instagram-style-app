@@ -3,47 +3,52 @@ import logo from './logo.svg';
 import Icon from './asset/instagram_logo.png';
 import './App.css';
 import { Alert } from "shards-react";
-import { Button } from "shards-react";
+import {
+  Button,
+  Form,
+  FormGroup,
+  FormInput
+} from "shards-react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css"
 
-function App() {
+import { Auth } from 'aws-amplify'
 
+function App(props) {
   return (
-      <div>
+    <div className="App">
+      <header className="header">
         <div className="logo-instagram">
           <img src={Icon}  alt="アイコン" />
         </div>
-        <div className="login-default">
-          <Button>Facebookでログイン</Button>          
-        </div>
-        <div className="login-facebook">
-          <span className="login-test">
-          <Button>ログイン</Button>
-          </span>
-        </div>
-      </div>
-    );
-  {
-  /*
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          友達と繋がろう
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div class="login_facebook">
+          <Button onClick={() => Auth.federatedSignIn()}>Sign In</Button>
+        </div>
+        <div class="label_1">
+          <p>または</p>
+        </div>
+        <div class="form_registration">
+          <Form>
+            <FormGroup>
+              <FormInput id="#tellphone_adress" placeholder="tellphone_adress"></FormInput>
+            </FormGroup>
+            <FormGroup>
+              <FormInput id="#fullname" placeholder="fullname"></FormInput>
+            </FormGroup>
+            <FormGroup>
+              <FormInput id="#username" placeholder="username"></FormInput>
+            </FormGroup>
+            <FormGroup>
+              <FormInput id="#password" placeholder="password"></FormInput>
+            </FormGroup>
+          </Form>
+        </div>
       </header>
     </div>
-  );
-  */}
+  )
 }
 
 export default App;
