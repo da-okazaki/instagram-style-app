@@ -14,6 +14,18 @@ import "shards-ui/dist/css/shards.min.css"
 
 import { Auth } from 'aws-amplify'
 
+function checkUser() {
+  Auth.currentAuthenticatedUser()
+    .then(user => console.log({ user }))
+    .catch(err => console.log(err))
+}
+
+function signOut() {
+  Auth.signOut()
+    .then(data => console.log(data))
+    .catch(err => console.log(err))
+}
+
 function App(props) {
   return (
     <div className="App">
@@ -27,6 +39,18 @@ function App(props) {
         <div class="login_facebook">
           <Button onClick={() => Auth.federatedSignIn()}>Sign In</Button>
         </div>
+        <div class="login-facebook">
+          <Button onClick={checkUser}>Check User</Button>
+        </div>
+        <div class="login-facebook">
+          <Button onClick={signOut}>Sign Out</Button>
+        </div>
+        <div class="login-facebook">
+          <Button onClick={() => Auth.federatedSignIn({provider: 'Facebook'})}>Sign In with Facebook</Button>
+        </div>
+        <div class="login-facebook">
+          <Button onClick={() => Auth.federatedSignIn({provider: 'Google'})}>Sign In with Google</Button>
+        </div>        
         <div class="label_1">
           <p>または</p>
         </div>
@@ -45,6 +69,9 @@ function App(props) {
               <FormInput id="#password" placeholder="password"></FormInput>
             </FormGroup>
           </Form>
+        </div>
+        <div class="login_default">
+          <Button onClick={() => Auth.federatedSignIn()}>　　　　Registration　　　　</Button>
         </div>
       </header>
     </div>

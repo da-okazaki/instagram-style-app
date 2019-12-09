@@ -31,13 +31,11 @@
 .login-default {
   padding: 20px;              /* 余白指定 */
   text-align:  center;        /* 中央寄せ */
-  height: 100px;              /* 高さ指定 */  
 }
 
 .login-facebook {
   padding: 20px;              /* 余白指定 */
   text-align:  center;        /* 中央寄せ */
-  height: 100px;              /* 高さ指定 */
 }
 
 .login-test {
