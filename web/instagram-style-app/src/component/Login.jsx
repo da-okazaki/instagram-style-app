@@ -16,9 +16,9 @@ import {
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css"
-import './LoginApp.css';
+import './Login.css';
 
-import logo_instagram from "./asset/instagram_logo.png";
+import logo_instagram from "../asset/instagram_logo.png";
 
 
 // propsにhistory, location, matchが格納される
@@ -30,7 +30,7 @@ const LoginButton = withRouter(props => {
     );
 });
   
-const LoginApp = () => {
+const Login = () => {
     return (
       <div>
         <div class="logo_instagram">
@@ -82,4 +82,4 @@ const LoginApp = () => {
       )
   }
 
-export default LoginApp;
+export default Login;

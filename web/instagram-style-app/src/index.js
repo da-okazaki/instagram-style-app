@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LoginApp from './LoginApp';
+import Login from './component/Login';
 import { BrowserRouter as Router } from "react-router-dom";
 
 //import registerServiceWorker from './registerServiceWorker'
 import './index.css';
-import App from './App';
+import App from './component/App';
 import * as serviceWorker from './serviceWorker';
 
 import Amplify from "aws-amplify";
