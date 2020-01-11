@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.logo-instagram {
+  padding: 20px;              /* 余白指定 */
+  text-align:  center;        /* 中央寄せ */
+  height: 100px;              /* 高さ指定 */
+}
+
+
+.login-default {
+  padding: 20px;              /* 余白指定 */
+  text-align:  center;        /* 中央寄せ */
+}
+
+.login-facebook {
+  padding: 20px;              /* 余白指定 */
+  text-align:  center;        /* 中央寄せ */
+}
+
+.login-test {
+  width: 300px;
+}

@@ -1,0 +1,42 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-instagram-style-app-dev-03806-authRole",
+            "UnauthRoleArn": "arn:aws:iam::541092259899:role/amplify-instagram-style-app-dev-03806-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::541092259899:role/amplify-instagram-style-app-dev-03806-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "amplify-instagram-style-app-dev-03806-deployment",
+            "UnauthRoleName": "amplify-instagram-style-app-dev-03806-unauthRole",
+            "StackName": "amplify-instagram-style-app-dev-03806",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:541092259899:stack/amplify-instagram-style-app-dev-03806/564978b0-1ae5-11ea-9667-0ae3ffe7265e",
+            "AmplifyAppId": "d22vdxmvx7v91"
+        },
+        "categories": {
+            "auth": {
+                "instagramstyleapp950b42e4": {
+                    "hostedUIProviderCreds": "[]"
+                }
+            }
+        }
+    },
+    "develop": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-instagram-style-app-develop-42907-authRole",
+            "UnauthRoleArn": "arn:aws:iam::541092259899:role/amplify-instagram-style-app-develop-42907-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::541092259899:role/amplify-instagram-style-app-develop-42907-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "amplify-instagram-style-app-develop-42907-deployment",
+            "UnauthRoleName": "amplify-instagram-style-app-develop-42907-unauthRole",
+            "StackName": "amplify-instagram-style-app-develop-42907",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:541092259899:stack/amplify-instagram-style-app-develop-42907/9b40c0c0-1b05-11ea-bb00-0a50f89864ca",
+            "AmplifyAppId": "d22vdxmvx7v91"
+        },
+        "categories": {
+            "auth": {
+                "instagramstyleappf11b7e99": {
+                    "hostedUIProviderCreds": "[]"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"instagramstyleappf11b7e99": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
